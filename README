@@ -1,6 +1,6 @@
-This utility control md5 hash of target file.
-If file has been modified this utility copy target file to backup directory.
-It stores max 24 backup files. But this count can be overridw in file_history.conf.
+This utility controling md5 hash of target file.
+If target file was modified this utility copy target file to backup directory.
+It stores max 24 backup files. But this count can be override in file_history.conf.
 
 You should copy config file "file_history.conf" to /etc directory ("/etc/file_history.conf")
 Then modify config file. And run main.py.
