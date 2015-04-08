@@ -21,8 +21,8 @@ class Guarder(Daemon):
         self.min_period = min_period
         self.target_file = target_file
         self.state_file = state_file
-        file = open(self.state_file, 'w+')
-        file.close()
+        if not os.path.exists(self.state_file):
+            file(self.state_file, 'w').close()
         if directory.endswith('/'):
             self.directory_for_save = directory[:-1]
         else:

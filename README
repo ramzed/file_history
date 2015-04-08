@@ -3,7 +3,7 @@ If target file was modified this utility copy target file to backup directory.
 It stores max 24 backup files. But this count can be override in file_history.conf.
 
 You should copy config file "file_history.conf" to /etc directory ("/etc/file_history.conf")
-Then modify config file. And run main.py.
+Then modify config file. And run main.py. ("python main.py start")
 
 daemon.py - class realizing daemon features. (http://www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/)
 guarder.py - Guarder class. This main class of utility. (Author Pavel Lazarenko)
